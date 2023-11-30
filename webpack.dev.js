@@ -14,12 +14,7 @@ module.exports = merge(common, {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
-        use: [
-          {
-            loader: "react-hot-loader/webpack"
-          }
-        ]
+        exclude: /node_modules/
       }
     ]
   }
